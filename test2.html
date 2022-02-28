@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>if-else를 이용한 학점 매기기</title>
+<h1>if-else를 이용한 학점 매기기</h1><hr>
+<script>
+	var score = Number(prompt("황기태 님 점수를 입력하세요.",""));
+	var garde;
+	
+	 if(score >= 90){
+		 garde ="A";
+	   }else if(score >= 80){
+		   garde="B";
+	   }else if(score >= 70){
+		   garde="C";
+	   }else if(score >= 60){
+		   garde="D";
+	   }else{
+		   garde="F";
+	   }
+	document.write(score+"는"+garde+"입니다.")
+</script>
+</head>
+<body>
+</body>
+</html>
